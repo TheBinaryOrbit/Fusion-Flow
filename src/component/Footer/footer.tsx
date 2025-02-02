@@ -6,7 +6,7 @@ import { FaSquareXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
     return (
-        <footer className="w-full bg-black rounded-t-2xl  h-fit p-5">
+        <footer className="w-full bg-black rounded-t-3xl  h-fit p-5">
             <div className="max-w-7xl mx-auto">
                 <div className=' flex justify-between items-center mb-10'>
                     <Image src={img} alt="img" className='w-32' />
