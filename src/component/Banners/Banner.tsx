@@ -13,9 +13,9 @@ const Banner = () => {
   };
 
   return (
-    <div className="w-full py-10">
+    <div className="w-full py-10 px-4">
       <div
-        className="relative max-w-7xl mx-auto p-4 group rounded-2xl h-[400px] bg-black flex flex-col justify-center items-center overflow-hidden"
+        className="relative max-w-7xl mx-auto p-4 group rounded-2xl h-fit md:h-[400px] bg-black flex flex-col justify-center items-center overflow-hidden"
         onMouseMove={handleMouseMove} onMouseLeave={()=> setScale(1)}
       >
         {/* Moving Background */}
@@ -29,14 +29,14 @@ const Banner = () => {
         </div>
 
         {/* Content */}
-        <h1 className="text-white text-5xl font-bold text-center capitalize mb-6 z-50">
-          A Better Way to Work <br /> Today, Together
+        <h1 className="text-white text-2xl md:text-5xl font-bold text-center capitalize mb-4 md:mb-6 z-50">
+          A Better Way to Work <br className=" hidden" /> Today, Together
         </h1>
-        <p className="text-slate-200 text-center max-w-3xl text-sm z-50">
+        <p className="text-slate-200 text-center min-w-3xl text-[10px] md:text-sm z-50">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vitae, perferendis libero aspernatur dignissimos, velit molestias aperiam fuga laborum aliquid non! Quibusdam.
         </p>
-        <div className="mt-10 flex items-center gap-5 z-50">
-          <button className="px-5 py-2 rounded-2xl shadow-button text-black bg-white font-bold text-sm hover:bg-gray-200 duration-300">
+        <div className="md:mt-10 mt-4 flex items-center gap-5 z-50">
+          <button className="px-5 py-2 rounded-2xl shadow-button text-black bg-white font-bold text-xs md:text-sm hover:bg-gray-200 duration-300">
             Join Fusion Flow
           </button>
         </div>

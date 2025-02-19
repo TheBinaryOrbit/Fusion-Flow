@@ -9,36 +9,36 @@ const BusinessPro = () => {
         <div className="w-full">
             <div className="max-w-7xl mx-auto p-4">
                 <div className="">
-                    <h1 className="text-3xl font-bold mb-6">Introducing Fusion Flow pro.</h1>
-                    <div className="h-fit bg-indigo-100 rounded-2xl flex">
-                        <div className=" w-1/2 h-full  p-10">
-                            <h1 className="text-[44px] text-balck font-serif leading-tight font-medium mb-10" >The <span className="text-indigo-600 ">premium</span> freelance solution for businesses</h1>
-                            <div className=" grid grid-cols-2 grid-rows-2 gap-6 mb-10">
+                    <h1 className="text-xl md:text-3xl font-bold mb-4 md:mb-6">Introducing Fusion Flow pro.</h1>
+                    <div className="h-fit bg-indigo-100 rounded-2xl flex lg:flex-row flex-col">
+                        <div className="lg:w-1/2 lg:h-full h-1/2 w-full  md:p-10 p-5">
+                            <h1 className="text-2xl md:text-[44px] text-balck font-serif leading-tight font-medium mb-6 sm:mb-10" >The <span className="text-indigo-600 ">premium</span> freelance solution for businesses</h1>
+                            <div className=" grid grid-cols-1 sm:grid-cols-2 grid-rows-2 gap-6 mb-10">
                                 <div>
                                     <p><MdWorkspacePremium size={16} className="mb-2" /></p>
                                     <h2 className="font-bold text-lg">Dedicated hiring experts</h2>
-                                    <p className="text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, eos incidunt deleniti tempore adipisci explicabo!</p>
+                                    <p className="text-sm sm:w-full text-justify w-[90%]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, eos incidunt deleniti tempore adipisci explicabo!</p>
                                 </div>
                                 <div>
                                     <p><MdWorkspacePremium size={16} className="mb-2" /></p>
                                     <h2 className="font-bold text-lg">Satisfaction guarantee</h2>
-                                    <p className="text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, eos incidunt deleniti tempore adipisci explicabo!</p>
+                                    <p className="text-sm sm:w-full text-justify w-[90%]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, eos incidunt deleniti tempore adipisci explicabo!</p>
                                 </div>
                                 <div>
                                     <p><MdWorkspacePremium size={16} className="mb-2" /></p>
                                     <h2 className="font-bold text-lg">Advanced management tools</h2>
-                                    <p className="text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, eos incidunt deleniti tempore adipisci explicabo!</p>
+                                    <p className="text-sm sm:w-full text-justify w-[90%]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, eos incidunt deleniti tempore adipisci explicabo!</p>
                                 </div>
                                 <div>
                                     <p><MdWorkspacePremium size={16} className="mb-2" /></p>
                                     <h2 className="font-bold text-lg">Flexible payment models</h2>
-                                    <p className="text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, eos incidunt deleniti tempore adipisci explicabo!</p>
+                                    <p className="text-sm sm:w-full text-justify w-[90%]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, eos incidunt deleniti tempore adipisci explicabo!</p>
                                 </div>
                             </div>
                             <button className="border-[1px] px-5 border-white rounded-2xl shadow-button text-white bg-black tracking-wide py-2 font-bold z-50 overflow-hidden mb-10">
                                 Get Started
                             </button>
-                            <div>
+                            <div className="sm:block hidden">
                                 <h2 className="font-bold text-xl mb-1">Trusted By</h2>
                                 <div className="flex gap-4">
                                     <p className="flex justify-center items-center gap-1 text-lg"><FaXTwitter />xcentic</p>
@@ -49,10 +49,10 @@ const BusinessPro = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-1/2 h-full p-10 ">
-                            <div className="grid grid-cols-2 grid-rows-[auto_auto_auto_auto] gap-5 p-4  rounded-2xl">
+                        <div className="lg:w-1/2 lg:h-full h-1/2 w-full p-5 md:p-10 ">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 sm:grid-rows-[auto_auto_auto_auto] gap-5 md:p-4  rounded-2xl">
                                 {/* Card 1 */}
-                                <div className="col-span-2 flex items-center justify-between bg-white shadow-lg rounded-2xl p-4">
+                                <div className="sm:col-span-2 flex items-center justify-between bg-white shadow-lg rounded-2xl p-4">
                                     <div>
                                         <p className="font-semibold text-sm">Three Taskers in Full Swing.</p>
                                     </div>
